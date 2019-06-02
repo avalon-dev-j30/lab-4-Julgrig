@@ -26,6 +26,7 @@ public final class UdpSender {
         socket.send(packet);
         // 7. Освобождаем ресурсы
         socket.close();
+        
     }
 
     /**
